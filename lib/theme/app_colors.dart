@@ -15,5 +15,7 @@ class AppColors {
   static Color? onPrimary;   // Ensure this is defined or remove if unnecessary
   static Color? onSecondary; // Ensure this is defined or remove if unnecessary
   static Color? onError;     // Ensure this is defined or remove if unnecessary
-  static Color? onSurface;   // Ensure this is defined or remove if unnecessary
+  static Color? onSurface;
+
+  static var success;   // Ensure this is defined or remove if unnecessary
 }

@@ -7,9 +7,12 @@ import 'providers/score_provider.dart';
 import 'theme/app_theme.dart';
 import 'screens/splash_screen.dart';
 
+final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+
 void main() {
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
